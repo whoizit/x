@@ -1,0 +1,21 @@
+u:  
+    help: update
+    command: sudo apt update && sudo apt upgrade
+i: 
+    help: install
+    command: sudo apt install
+r: 
+    help: remove
+    command: sudo apt remove
+p: 
+    help: purge
+    command: sudo apt purge
+s: 
+    help: search
+    command: apt search
+l: 
+    help: list files
+    command: dpkg -L
+o: 
+    help: owned by
+    command: dpkg -S

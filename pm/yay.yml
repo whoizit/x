@@ -1,0 +1,30 @@
+u:  
+    help: update
+    command: yay -Syu
+s: 
+    help: search
+    command: yay -Ss
+i: 
+    help: install
+    command: yay -S
+r: 
+    help: remove
+    command: yay -Rs
+l: 
+    help: list files
+    command: yay -Ql
+fy: 
+    help: sync files db
+    command: yay -Fy
+fs: 
+    help: sync files db
+    command: yay -Fs
+fl: 
+    help: list files in db
+    command: yay -Fl
+fo: 
+    help: owned by files in db
+    command: yay -Fo
+o: 
+    help: owned by
+    command: yay -Qo

@@ -1,0 +1,3 @@
+package_manager: xbps
+default_command: s
+show_command: true

@@ -1,0 +1,30 @@
+u:  
+    help: update
+    command: sudo pacman -Syu
+i: 
+    help: install
+    command: sudo pacman -S
+r: 
+    help: remove
+    command: sudo pacman -Rs
+fy: 
+    help: sync files db
+    command: sudo pacman -Fy
+fs: 
+    help: search files db
+    command: pacman -Fs
+fl: 
+    help: list files in db
+    command: pacman -Fl
+fo: 
+    help: owned by files in db
+    command: pacman -Fo
+s: 
+    help: search
+    command: pacman -Ss
+l: 
+    help: list files
+    command: pacman -Ql
+o: 
+    help: owned by
+    command: pacman -Qo

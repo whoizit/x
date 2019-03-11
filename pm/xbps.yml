@@ -1,0 +1,24 @@
+u: 
+    help: update
+    command: sudo xbps-install -Su
+i:
+    help:  install
+    command: sudo xbps-install -S
+r:
+    help: remove
+    command: sudo xbps-remove -R
+s:
+    help: search
+    command: xbps-query -Rs
+in:
+    help: info
+    command: xbps-query
+l:
+    help: list files
+    command: xbps-query -f
+o:
+    help: owned by
+    command: xbps-query -o
+ob:
+    help: owned by (binary)
+    command: xbps-query -o $(readlink -f $(which {}))

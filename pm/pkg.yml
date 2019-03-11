@@ -1,0 +1,24 @@
+u:  
+    help: update
+    command: sudo pkg upgrade
+i: 
+    help: install
+    command: sudo pkg install
+r: 
+    help: remove
+    command: sudo pkg remove
+ra: 
+    help: auto remove
+    command: sudo pkg autoremove
+s: 
+    help: search
+    command: pkg search
+in: 
+    help: info
+    command: pkg info
+l: 
+    help: list files
+    command: pkg info -l
+o: 
+    help: owned by
+    command: pkg which
